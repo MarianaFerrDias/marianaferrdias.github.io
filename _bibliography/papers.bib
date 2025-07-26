@@ -1,115 +1,71 @@
 ---
 ---
 
-@string{aps = {American Physical Society,}}
-
-@book{einstein1920relativity,
-  title={Relativity: the Special and General Theory},
-  author={Einstein, Albert},
-  year={1920},
-  publisher={Methuen & Co Ltd},
-  html={relativity.html}
+@misc{dias2025pkg,
+author = {Dias, Mariana and Lopes, Carla Teixeira},
+title = {Can Personal KG-based RAG Empower Patients?},
+howpublished = {Conference presentation},
+note = {Presented at the 1st GOBLIN Workshop on Knowledge Graph Technologies, Leipzig, Germany, June 2025},
+year = {2025},
+pdf={https://drive.google.com/file/d/13zH4gVdL8Nia_OJ6QARycpkbSBlApu4c/view},
+preview={dias2025pkg.png}
 }
 
-@book{einstein1956investigations,
-  bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation},
-  preview={brownian-motion.gif}
+@InProceedings{dias2025cross,
+author="Dias, Mariana and Lopes, Carla Teixeira",
+editor="Grabis, J{\={a}}nis and Vos, Tanja E. J. and Escalona, Maria Jos{\'e} and Pastor, Oscar",
+title="Cross-Lingual Entity Linking Using GPT Models in Radiology Abstracts",
+booktitle="Research Challenges in Information Science",
+year="2025",
+publisher="Springer Nature Switzerland",
+address="Cham",
+pages="20--37",
+abstract="Entity linking is an important task in medical natural language processing (NLP) for converting unstructured text into structured data for clinical analysis and semantic interoperability. However, in lower-resource languages, this task is challenging due to the limited availability of domain-specific resources. This paper explores a translation-based cross-lingual entity linking approach using GPT models, GPT-3.5 and GPT-4o, for zero-shot machine translation and entity linking with in-context learning. We evaluate our approach using a Portuguese-English parallel dataset of radiology abstracts. Our results show that chunk-level machine translation outperforms sentence-level translation. Moreover, our translation-based approach to cross-lingual entity linking of UMLS concepts outperformed the multilingual encoder method baseline. However, the in-context learning entity linking approach did not outperform a translation-based approach with a dictionary-based entity linking method.",
+isbn="978-3-031-92471-2",
+pdf={https://repositorio-aberto.up.pt/bitstream/10216/167656/2/732037.pdf},
+bibtex_show={true},
+preview={dias2025cross.svg}
 }
 
-@article{einstein1950meaning,
-  abbr={AJP},
-  bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers}
+@article{dias2023,
+author = {Dias, Mariana and Lopes, Carla Teixeira},
+title = {Optimization of Image Processing Algorithms for Character Recognition in Cultural Typewritten Documents},
+year = {2023},
+issue_date = {December 2023},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+volume = {16},
+number = {4},
+issn = {1556-4673},
+arxiv = {2311.15740v1},
+doi = {10.1145/3606705},
+abstract = {Linked data is used in various fields as a new way of structuring and connecting data. Cultural heritage institutions have been using linked data to improve archival descriptions and facilitate the discovery of information. Most archival records have digital representations of physical artifacts in the form of scanned images that are non-machine-readable. Optical Character Recognition (OCR) recognizes text in images and translates it into machine-encoded text. This article evaluates the impact of image processing methods and parameter tuning in OCR applied to typewritten cultural heritage documents. The approach uses a multi-objective problem formulation to minimize Levenshtein edit distance and maximize the number of words correctly identified with a non-dominated sorting genetic algorithm (NSGA-II) to tune the methods’ parameters. Evaluation results show that parameterization by digital representation typology benefits the performance of image pre-processing algorithms in OCR. Furthermore, our findings suggest that employing image pre-processing algorithms in OCR might be more suitable for typologies where the text recognition task without pre-processing does not produce good results. In particular, Adaptive Thresholding, Bilateral Filter, and Opening are the best-performing algorithms for the theater plays’ covers, letters, and overall dataset, respectively, and should be applied before OCR to improve its performance.},
+journal = {J. Comput. Cult. Herit.},
+month = nov,
+articleno = {77},
+numpages = {25},
+keywords = {Image processing, optical character recognition, parameter tuning, cultural heritage},
+code = {https://github.com/feup-infolab/archmine},
+bibtex_show={true},
+preview={dias2023.jpg}
 }
 
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein*†, A. and Podolsky*, B. and Rosen*, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.},
-  location={New Jersey},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  altmetric={248277},
-  dimensions={true},
-  google_scholar_id={qyhmnyLat1gC},
-  video={https://www.youtube-nocookie.com/embed/aqz-KE-bpKQ},
-  additional_info={. *More Information* can be [found here](https://github.com/alshedivat/al-folio/)},
-  annotation={* Example use of superscripts<br>† Albert Einstein},
-  selected={true},
-  inspirehep_id = {3255}
-}
-
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
-}
-
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.},
-  volume={17},
-  pages={549--560},
-  year={1905}
-}
-
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
-}
-
-@Article{einstein1905photoelectriceffect,
-  bibtex_show={true},
-  abbr={Ann. Phys.},
-  title="{{\"U}ber einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt}",
-  author={Albert Einstein},
-  abstract={This is the abstract text.},
-  journal={Ann. Phys.},
-  volume={322},
-  number={6},
-  pages={132--148},
-  year={1905},
-  doi={10.1002/andp.19053220607},
-  award={Albert Einstein receveid the **Nobel Prize in Physics** 1921 *for his services to Theoretical Physics, and especially for his discovery of the law of the photoelectric effect*},
-  award_name={Nobel Prize}
-}
-
-@book{przibram1967letters,
-  bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif},
-  abbr={Vision}
+@inproceedings{dias2022,
+Author={Dias, Mariana and Lopes, Carla Teixeira},
+Title={{Mining Typewritten Digital Representations to Support Archival Description.}},
+abstract={Linked Data is used in various fields as a new way of structuring and connecting data. Cultural heritage institutions have been using linked data to improve archival descriptions and promote findability. The required detail in manual descriptions of cultural heritage objects can be taxing and time-consuming. Given this, in EPISA, a research project on this topic, we propose to use the contents of the digital representations associated with the objects to assist archivists in their description tasks. More specifically, to extract information from the digital representations useful for an initial ontology population that should be validated or edited by the archivist. We apply optical character recognition in an initial stage to convert the digital representation to a machine-readable format. We then use ontology-oriented programming to identify and instantiate ontology concepts using neural networks and contextual embeddings.},
+Year={{2022}},
+Series={{CEUR Workshop Proceedings}},
+Editor={Silvello,G},
+Journal={{Proceedings of the 26th International Conference on Theory and Practice of Digital Libraries - Workshops and Doctoral Consortium, Padua, Italy, September 20, 2022.}},
+ISSN={{1613-0073}},
+Booktitle={{CEUR Workshop Proceedings}},
+Conference={{26th International Conference on Theory and Practice of Digital Libraries, TPDL 2022}},
+Volume={{3246}},
+Pages={{70-76}},
+Type={{Proceedings Paper}},
+Note={{Indexing/Citations: dblp, scopus}},
+pdf={https://ceur-ws.org/Vol-3246/09_Paper2.pdf},
+bibtex_show={true},
+preview={dias2022.png}
 }
