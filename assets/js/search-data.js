@@ -70,17 +70,17 @@ ninja.data = [{
           description: "",
           section: "News",},{id: "projects-consensual-archonto-representation-of-13-portuguese-historical-archival-records-based-on-their-digital-representations",
           title: 'Consensual ArchOnto representation of 13 Portuguese Historical Archival Records based on their Digital...',
-          description: "Authors: Mariana Dias, Carla Teixeira Lopes Year: 2023",
+          description: "Authors: Mariana Dias and Carla Teixeira Lopes; Year: 2023",
           section: "Projects",handler: () => {
               window.location.href = "/projects/episa_dataset1/";
             },},{id: "projects-manual-transcriptions-of-typewritten-digital-representations-of-portuguese-cultural-heritage-documents-from-the-20th-century",
           title: 'Manual Transcriptions of Typewritten Digital Representations of Portuguese Cultural Heritage Documents from the...',
-          description: "Authors: Margarida Falcão, Mariana Dias, Carla Teixeira Lopes Year: 2022",
+          description: "Authors: Margarida Falcão, Mariana Dias and Carla Teixeira Lopes; Year: 2022",
           section: "Projects",handler: () => {
               window.location.href = "/projects/episa_dataset2/";
             },},{id: "projects-typewritten-digital-representations-of-portuguese-cultural-heritage-documents-from-the-20th-century",
           title: 'Typewritten Digital Representations of Portuguese Cultural Heritage Documents from the 20th century',
-          description: "Authors: Mariana Dias, Carla Teixeira Lopes Year: 2022",
+          description: "Authors: Mariana Dias and Carla Teixeira Lopes; Year: 2022",
           section: "Projects",handler: () => {
               window.location.href = "/projects/episa_dataset3/";
             },},{
