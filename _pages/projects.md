@@ -36,5 +36,4 @@ horizontal: true
   </div>
   {% endif %}
   {% endfor %}
-
-{% else %}
+</div>
