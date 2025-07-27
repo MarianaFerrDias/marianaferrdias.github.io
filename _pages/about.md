@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-#subtitle: Faculty of Engineering, University of Porto, Portugal
+subtitle: PhD Candidate | Faculty of Engineering, University of Porto <a href="https://sigarra.up.pt/feup/en/web_page.Inicial" target="_blank">(FEUP)</a>
 
 profile:
   align: right
