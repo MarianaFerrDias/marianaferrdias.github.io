@@ -1,15 +1,9 @@
 {
   "basics": {
     "name": "Mariana Dias",
-    "label": "Scientist",
+    "label": "PhD Candidate in Informatics Engineering",
     "image": "",
-    "email": "up201606486@up.pt",
-    "url": "https://marianaferrdias.github.io/",
-    "summary": "PhD candidate in Informatics Engineering",
-    "location": {
-      "city": "Porto",
-      "countryCode": "PT"
-    }
+    "email": "up201606486@up.pt"
   },
   "work": [
     {

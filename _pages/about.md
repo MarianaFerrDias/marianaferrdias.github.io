@@ -24,6 +24,6 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a PhD student in Informatics Engineering at the Faculty of Engineering, University of Porto. My research has focused on ontology engineering, natural language processing, and constrained combinatorial optimization.
+My research has focused on ontology engineering, natural language processing, and constrained combinatorial optimization.
 
-Currently, I am interested in data representation, information retrieval, and retrieval-augmented generation. I am exploring ways to structure and access data more effectively to improve information accessibility and enhance comprehension.
+Currently, I am interested in data representation, information retrieval, and retrieval-augmented generation. I am exploring ways to structure and access data more effectively to improve information accessibility and enhance comprehension, particularly for health management. 
