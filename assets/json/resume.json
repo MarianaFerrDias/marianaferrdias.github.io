@@ -18,17 +18,17 @@
       "url": "https://www.inesctec.pt/pt/pessoas/mariana-ferreira-dias",
       "startDate": "2024-02",
       "endDate": "2024-07",
-      "summary": "Worked for the HfPT project – Health from Portugal.",
+      "summary": "Worked for the HfPT project – Health from Portugal",
       "highlights": ["Explored entity linking of radiology concepts in non-English unstructured text using GPT models for machine translation and entity normalization", "Performed prompt engineering experiments to evaluate diff erent methods to chunk text for machine translation", "Conducted prompt engineering experiments to refi ne prompts for entity linking task by incorporating contextual knowledge"]
     },
     {
       "name": "Faculty of Engineering, University of Porto",
-      "position": "Invited Assistant Professor of Databases",
+      "position": "Invited Assistant Professor",
       "url": "https://sigarra.up.pt/feup/pt/func_geral.formview?p_codigo=704511",
       "startDate": "2023-09",
       "endDate": "2025-03",
-      "summary": "Assisted in teaching an introductory course on Databases for bachelor students in Informatics Engineering.",
-      "highlights": ["Databases"]
+      "summary": "Assisted in teaching an introductory course on Databases for bachelor students in Informatics Engineering",
+      "highlights": ["The course covers relational database fundamentals, focusing on design, implementation, and management. Students learn UML data modeling, relational normalization techniques, and SQL for database definition and querying"]
     },
     {
       "name": "INESC TEC",
@@ -36,7 +36,7 @@
       "url": "https://www.inesctec.pt/pt/pessoas/mariana-ferreira-dias",
       "startDate": "2022-02",
       "endDate": "2022-12",
-      "summary": "Worked for the EPISA project – Entity and Property Inference for Semantic Archives.",
+      "summary": "Worked for the EPISA project – Entity and Property Inference for Semantic Archives",
       "highlights": ["Created a cultural heritage dataset of Portuguese typewritten documents from the 20th century classifi ed into typologies", "Analyzed the impact of image pre-processing on OCR", "Analyzed the impact of non-dominated sorting genetic algorithm (NSGA-II) on the parametrization of image processing algorithms to optimize OCR", "Proposed an approach for the automatic population of a cultural heritage ontology from textual data that uses NLP models to identify and classify ontology instances and properties through Named Entity Recognition (NER) and Relation Extraction (RE) models","Proposed a methodology to evaluate ontology population with hierarchical and lexical evaluation"]
     },
     {
@@ -45,7 +45,7 @@
       "url": "https://www.inesctec.pt/pt/pessoas/mariana-ferreira-dias",
       "startDate": "2021-09",
       "endDate": "2021-10",
-      "summary": "Worked for the EPISA project – Entity and Property Inference for Semantic Archives."
+      "summary": "Worked for the EPISA project – Entity and Property Inference for Semantic Archives"
     }
   ],
   "education": [
@@ -78,7 +78,7 @@
     {
       "name": "Cross-Lingual Entity Linking Using GPT Models in Radiology Abstracts",
       "publisher": "Research Challenges in Information Science (RCIS)",
-      "releaseDate": "2025",
+      "releaseDate": "2025-05",
       "url": "https://link.springer.com/chapter/10.1007/978-3-031-92471-2_2"
     },
     {
@@ -124,11 +124,6 @@
     {
       "language": "Portuguese",
       "fluency": "Native speaker",
-      "icon": ""
-    },
-    {
-      "language": "English",
-      "fluency": "Fluent",
       "icon": ""
     },
     {
