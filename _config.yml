@@ -6,7 +6,8 @@ title: blank # the website title (if blank, full name will be used instead)
 first_name: Mariana
 middle_name: Ferreira
 last_name: Dias
-description: PhD Candidate | <a href="https://sigarra.up.pt/feup/en/web_page.Inicial" target="_blank">Faculty of Engineering, University of Porto (FEUP)</a> # the ">" symbol means to ignore newlines until "footer_text:"
+description: >
+  PhD Candidate | <a href="https://sigarra.up.pt/feup/en/web_page.Inicial" target="_blank">Faculty of Engineering, University of Porto (FEUP)</a> # the ">" symbol means to ignore newlines until "footer_text:"
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
