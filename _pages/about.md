@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Faculty of Engineering, University of Porto, Portugal
+#subtitle: Faculty of Engineering, University of Porto, Portugal
 
 profile:
   align: right
